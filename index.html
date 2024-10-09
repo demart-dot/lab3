@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Особиста сторінка (блог)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header, footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+        }
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+        .biography, .web-dev, .docker, .swift {
+            margin-bottom: 30px;
+        }
+        .biography img, .web-dev img, .docker img, .swift img {
+            display: block;
+            margin: 0 auto;
+            width: 200px; /* Встановлено однакову ширину */
+            height: 200px; /* Встановлено однакову висоту */
+            border: 1px solid #000;
+        }
+        .biography div, .web-dev div, .docker div, .swift div {
+            text-align: justify;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        footer p {
+            font-size: 0.9em;
+        }
+        footer a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Особиста сторінка (блог) Демченка Артема Юрійовича</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="file:///E:/%D0%86%D0%9F%D0%97/3%20%D0%9A%D0%A3%D0%A0%D0%A1/Web/Lab3/src/pages/index.html">Biography</a></li>
+            <li><a href="file:///E:/%D0%86%D0%9F%D0%97/3%20%D0%9A%D0%A3%D0%A0%D0%A1/Web/Lab3/src/pages/schedule.html">Schedule</a></li>
+            <li><a href="file:///E:/%D0%86%D0%9F%D0%97/3%20%D0%9A%D0%A3%D0%A0%D0%A1/Web/Lab3/src/pages/gallery.html">Gallery</a></li>
+            <li><a href="file:///E:/%D0%86%D0%9F%D0%97/3%20%D0%9A%D0%A3%D0%A0%D0%A1/Web/Lab3/src/pages/news.html">News</a></li>
+        </ul>
+    </nav>
+
+    <section class="biography">
+        <img src="https://finetechhub.com/wp-content/uploads/2024/07/Pictures-and-anime-boy-with-hand-on-neck-1024x1024.jpg.webp" alt="Фото">
+        <div>
+            <h2>Biography</h2>
+            <p>Привіт! Мене звати Артем Демченко, я навчаюсь у групі 6-1212-1 на спеціальності "Програмна інженерія". Захоплююся розробкою програмного забезпечення та постійно вдосконалюю свої навички. Також я цікавлюсь англійською мовою та також вдосконалюю її, щоб читати документацію з програмування на англійській мові.</p>
+        </div>
+    </section>
+
+    <section class="web-dev">
+        <img src="https://itcollege.lviv.ua/wp-content/uploads/2021/11/depositphotos_20402935-stock-photo-seo-web-development-concept-web_55ec4.jpg" alt="Фото">
+        <div>
+            <h2>Особливості веб-програмування</h2>
+            <p>Веб-програмування — це створення сайтів та програм, які працюють онлайн. Ця сфера дозволяє створювати динамічні веб-сайти та додатки, які сприяють зручній та ефективній взаємодії з користувачами. Веб-програмування є важливою складовою розробки веб-сайтів та охоплює використання різноманітних технологій та мов програмування для створення функціональних та естетичних інтерфейсів.</p>
+        </div>
+    </section>
+
+    <section class="docker">
+        <img src="https://res.cloudinary.com/hugs4bugs/image/upload/v1703441731/hugs4bugs/01-primary-blue-docker-logo_rl8tst.png" alt="Фото">
+        <div>
+            <h2>Що таке Docker та технологія контейнерів Linux</h2>
+            <p>Контейнери Linux — незалежні середовища виконання з власними центральним процесором, пам’яттю, блоком вводу-виводу та мережевими ресурсами. На виході ви отримуєте щось подібне до віртуальної машини, яка працює як надбудова гостьової ОС. Контейнери є більш привабливим середовищем для сучасних застосунків з вимогами веб-масштабування.</p>
+        </div>
+    </section>
+
+    <section class="swift">
+        <img src="https://cdn.prod.website-files.com/63fda77e5fd49598bbf00892/6416e5ccdbc0d68da0d7727d_swift.jpg" alt="Фото">
+        <div>
+            <h2>Про Swift</h2>
+            <p>Swift - це нова мова програмування для додатків для iOS, macOS, watchOS, та tvOS, котра базується на кращому з С та Objective-C, без обмежень пов’язаних з сумісністю з С. Swift увібрав у себе шаблони безпечного програмування та додав сучасні можливості щоб зробити програмування простішим, гнучкішим, а головне – веселим. Бездоганна репутація Swift, що підтримується зрілими та широко вживаними фреймворками Cocoa та Cocoa Touch, дає можливість переосмислити те, як виглядає розробка програмного забезпечення.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Copyright 2024. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
